@@ -181,7 +181,7 @@ img {
         flex-direction: column;
     }
     #mess {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         width: 100vw;
         margin-left: 10px;
     }
