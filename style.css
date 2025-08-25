@@ -22,7 +22,7 @@ body {
     gap: 10px;
 }
 
-img {
+#bear {
     height: 180px;
     width: 221px;
 
@@ -175,6 +175,11 @@ img {
     align-items: center;
     text-align: center;
 }
+a {
+    text-decoration: none;
+}
+
+
 @media (max-width:1200px) {
     #ans {
         flex-direction: column;
@@ -196,7 +201,7 @@ img {
     #footer {
         position: relative;
         top: 100px;
-        left: 50px;
+        left: 46px;
         width: 300px;
     }
 }
