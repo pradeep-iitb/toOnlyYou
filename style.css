@@ -13,7 +13,7 @@ body {
 #container {
     background-color: rgba(252, 254, 252, 255);
     width: 100vw;
-    height: 650px;
+    height: 700px;
     display: flex;
     align-self: center;
     justify-content: center;
