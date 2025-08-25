@@ -191,4 +191,8 @@ img {
     #container {
         width: 100vw;
     }
+    #footer {
+        position: relative;
+        top: 50px;
+    }
 }
