@@ -46,6 +46,7 @@ img {
     display: inline-block;
     text-align: center;
     font-size: 30px;
+    font-family:  Geneva, Tahoma, sans-serif ;
 }
 
 #mess2 {
@@ -180,9 +181,12 @@ img {
         flex-direction: column;
     }
     #mess {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 100vw;
         margin-left: 10px;
+    }
+    #mess1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     body {
         width: 100vw;
