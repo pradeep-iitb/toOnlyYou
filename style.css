@@ -37,7 +37,7 @@ img {
     justify-content: center;
     align-content: center;
     gap: 15px;
-    font-family: cursive;
+    font-family: cursive ,Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     border: 1px solid rgb(233, 5, 222) ;
 }
