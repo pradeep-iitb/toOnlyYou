@@ -8,7 +8,6 @@
 body {
     height: 600px;
     width: 100vw;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #container {
@@ -181,7 +180,7 @@ img {
         flex-direction: column;
     }
     #mess {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         width: 100vw;
         margin-left: 10px;
     }
@@ -194,5 +193,6 @@ img {
     #footer {
         position: relative;
         top: 100px;
+        left: 20px;
     }
 }
