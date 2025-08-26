@@ -1,8 +1,8 @@
 
 function show(i) {
     let yes = document.querySelector("#yes");
-    let newton = 90+90*0.15*i ;
-    let einstein = 200+200*0.15*i ;
+    let newton = 90+90*0.2*i ;
+    let einstein = 200+200*0.2*i ;
     if (yes) yes.style.height = newton + "px";
     if (yes) yes.style.width = einstein + "px";
   for (let count = 1; count <= 15; count++) {
@@ -21,6 +21,11 @@ function show(i) {
   let next = document.querySelector("#no" + (i + 1));
   if (next) next.style.display = "flex";
 }
+
+  // let i = 1 ;
+  // while (i<15) {
+  // document.querySelector("#no"+i).addEventListener("click",() => {show(i);}) ;
+  // i++ ; }
 
   no1.addEventListener("click",() => {show(1);})
   no2.addEventListener("click",() => {show(2);})
@@ -46,3 +51,4 @@ function show(i) {
     }
 }
   )
+
