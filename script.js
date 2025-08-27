@@ -13,8 +13,11 @@ function show(i) {
   if (i === 14) {
     let no15 = document.querySelector("#no15");
     if (no15) no15.style.display = "flex";
+    document.querySelector("#bear1").style.display = "none" ;
+    document.querySelector("#bear2").style.display = "flex" ;
     let yes = document.querySelector("#yes");
     if (yes) yes.style.display = "none";
+
     return;
   }
 
@@ -51,4 +54,9 @@ function show(i) {
     }
 }
   )
+
+document.querySelector("#no15").addEventListener("click",() => {
+  location.reload()
+}
+)
 

@@ -22,12 +22,16 @@ body {
     gap: 10px;
 }
 
-#bear {
+.bear {
     height: 180px;
     width: 221px;
-
 }
-
+#bear1 {
+    display: flex;
+}
+#bear2 {
+    display: none;
+}
 #message {
     height: 120px;
     width: 400px;
